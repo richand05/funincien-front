@@ -1,0 +1,59 @@
+.counter-container {
+    background: #1D1238;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.counter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    min-width: 150px;
+    margin: 10px;
+}
+
+.counter-box:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+@media (max-width: 992px) {
+    .counter-box {
+        min-width: 130px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .counter-box {
+        min-width: 120px;
+        padding: 12px;
+    }
+}

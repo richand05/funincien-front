@@ -1,0 +1,13 @@
+.btn-dark {
+    background: #2563EB;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px; 
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  .btn-dark:hover {
+    background: #1E3A8A;
+  }

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.banner-container {
+    background: linear-gradient(to right,#3b1992, #1D1238,#3b1992);
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+.banner-text {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
+.astronaut {
+    width: 300px;
+}
